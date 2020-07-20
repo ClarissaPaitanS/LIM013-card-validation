@@ -37,7 +37,7 @@ de módulo 10, es un método de suma de verificación, se utiliza para validar n
 
   ### 1. Pantalla Inicial:
 
-![](img/Iniciar.jpg)
+  ![](img/Iniciar.jpg)
 
   ### 2. Pantalla Formulario Pago:
 
