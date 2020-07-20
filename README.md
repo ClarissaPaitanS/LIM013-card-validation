@@ -1,4 +1,4 @@
-# Tarjeta de crédito válida
+# Tarjeta de Crédito Válida 💳
 
 ## Índice
 
@@ -7,7 +7,7 @@
 
 ***
 
-## 1. Objetivo
+## 1. Objetivo 💥
 
 Una aplicación web donde se podra adquirir una fotografia mediante un pago.
 Al realizar el pago se inicia la validación de la tarjeta, cuando se ingresen
@@ -21,7 +21,7 @@ de módulo 10, es un método de suma de verificación, se utiliza para validar n
   3. El número a verificar será válido si la suma de sus dígitos finales es un múltiplo de 10.
 
 
-## 2. Prototipo 
+## 2. Prototipo 👩🏻‍💻
 
   ### 1. Pantalla Inicial:
 
