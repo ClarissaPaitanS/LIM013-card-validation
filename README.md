@@ -4,13 +4,14 @@
 
 * [1. Objetivo](#1-Objetivo)
 * [2. Prototipo](#2-Prototipo)
-* [3. Avance](#2-Avance)
+* [3. Avance](#3-Avance)
+* [3. Feedback](#4-Feedback)
 
 ***
 
 ## 1. Objetivo 💥
 
-Una aplicación web donde se podra adquirir una fotografia mediante un pago.
+Una aplicación web donde se podrá adquirir una fotografía mediante un pago.
 Al realizar el pago se inicia la validación de la tarjeta, cuando se ingresen
 los datos correctamente permitirá la descarga de la imagen en alta calidad.
 
@@ -23,6 +24,12 @@ de módulo 10, es un método de suma de verificación, se utiliza para validar n
 
 
 ## 2. Prototipo 👩🏻‍💻
+
+- La idea inicial, se centro en un formulario para Realizar la Validación:
+
+![](img/primero.jpg)
+
+- Luego del Feedback:
 
 ![](img/prototipo.jpg)
 
@@ -37,3 +44,10 @@ de módulo 10, es un método de suma de verificación, se utiliza para validar n
 ## 3. Avance 🖱️💻
 
 ![](img/avance_uno.jpg)
+
+## 4. Feedback 😎💻
+Al inicio mi prototipo solo constaba de un formulario para validar.
+Luego del feedback - lluvia de ideas con mi Squad: 
+- Brinde mas contexto a mi aplicación, centrarlo en un tema.
+- Adicione una pantalla inicio con una presentación resumida.
+- Boton Adquirir, que llamará al formulario de pago.
