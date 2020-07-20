@@ -2,13 +2,115 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+  <title>Fotografias 2020</title>
+  <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+
+    <header id="main-header">
+      <div class="container">
+        <h1>Fotografias 2020 </h1>
+      </div>
+    </header>
+
+
+    <main id="main-principal">
+        <div class="container">
+
+          <div class="imagen">
+            <img src="img/foto_presentacion.png" alt="FotoPresentacion" width="700" height="500">
+          </div>
+
+          
+          
+          <div class="texto">
+            <p><strong>Precio: </strong> S/.120.00</p>
+            <p><strong>Descripción: </strong> Todos conocemos la diversión que los gatitos traen. Son adorables con sus ojos grandes y orejas 
+              sobredimensionadas. En poco tiempo crecerán y los días de gatitos quedarán en el pasado. Asegúrese de 
+              conservar esa etapa al fotografiar a su pequeño mientras crece. Comience a fotografiarlo desde el día de 
+              adopción y a medida que se adapta a su nuevo hogar. Ahí es cuando puede hacer algunas de las tomas más 
+              divertidas.</p>
+            <p><strong>Autor: </strong> Ronaldo Urbina Sánchez.</p>
+            <p><strong>Cámara: </strong> Nikon COOLPIX, que presentan un Modo Escena Mascota para ayudarlo a 
+              obtener fotos sensacionales de sus gatos y perros de mascota. </p>
+              <div class="boton">
+                <button id="btnAdquirir">Adquirir</button>
+              </div>
+            </div>
+        
+      </div>
+    </main>
+
+<!-- Modal Pago-->
+<div id="modalPago" class="modal">
+
+  <!-- Modal Contenido - Pago -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    
+    <h1>Formulario de Pago</h1>
+
+    <form class="formulario">
+
+          
+      <div class="campo">
+        <label for="CreditCard">Número Tarjeta: </label> 
+        <input type="text" placeholder="################"  name="CreditCard" id="CreditCard" autocomplete="off">
+      </div>
+      
+      <div class="campo">
+        <label for="NameClient">Ingresar Nombre: </label> 
+        <input type="text" placeholder="John Smith"  name="NameClient" id="NameClient" autocomplete="off">
+      </div>
+
+      
+
+
+      <div class="campoDatos">
+        
+        <input type="text" placeholder="Mes"  name="MesExpira" id="MesExpira" autocomplete="off">
+        
+        <input type="text" placeholder="Año"  name="YearExpira" id="YearExpira" autocomplete="off">
+
+        <input type="text" placeholder="CVV"  name="CVV" id="CVV" autocomplete="off">
+      </div>
+
+    </form>
+    
+    <div class="boton">
+      <button id="pagar">Pagar</button>
+    </div>
+    
+      
+
+  </div>
+
+</div>
+<!--Modal Pago - Fin-->
+
+
+<!--Modal Detalle-->
+<div id="modalDetalle" class="modal">
+
+  <!-- Modal Contenido - Pago -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+    <p id="detalle">
+
+    </p>
+    
+  </div>
+
+</div>
+<!--Modal Detalle - Fin -->
+
+
+    <footer>
+    </footer>
+
+
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
