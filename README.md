@@ -23,6 +23,8 @@ de módulo 10, es un método de suma de verificación, se utiliza para validar n
 
 ## 2. Prototipo 👩🏻‍💻
 
+![](img/prototipo.jpg)
+
   ### 1. Pantalla Inicial:
 
 ![](img/Iniciar.jpg)
