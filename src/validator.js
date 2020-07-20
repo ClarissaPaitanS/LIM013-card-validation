@@ -1,6 +1,6 @@
 const validator = {
 
-  isValid: function isValid(numero_tarjeta) {
+  isValid: function (numero_tarjeta) {
         
     const cadena = numero_tarjeta.toString();
     const longitud = cadena.length;
@@ -32,7 +32,7 @@ const validator = {
       }
     },
 
-maskify:function maskify(numero_tarjeta) {
+maskify: function (numero_tarjeta) {
   numero_tarjeta= numero_tarjeta.replace(/.(?=.{4})/g, "#");
   return numero_tarjeta;
 }
