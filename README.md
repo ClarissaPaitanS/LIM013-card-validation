@@ -25,7 +25,7 @@ de módulo 10, es un método de suma de verificación, se utiliza para validar n
 
 ## 2. Prototipo 👩🏻‍💻
 
-- 💻 La idea inicial, se centro en un formulario para Realizar la Validación:
+- 💻 La idea inicial se centro en un formulario para Realizar la Validación:
 
 ![](img/primero.jpg)
 
