@@ -43,6 +43,19 @@ function realizarPago() {
             
             modalPago.style.display="none";
             modalDetalle.style.display="block";
+
+
+            descargar.innerHTML=
+            '<h1>¡Tu Pago se Realizo con Éxito!</h1>'+
+            '<br/><img src="img/gracias.gif" alt="gracias">'+
+            '<p>Gracias <b>'+ nameClient +', </b> por tu compra.</p>'+ 
+            '<p><b> Nro. Tarjeta: </b>'+ validator.maskify(creditCard) +'</p>'+
+            '<p><b> Puedes Iniciar la Descarga de la Imagen en Alta Calidad.</b></p>'+
+            '<p> Esperamos volver a verte <b>¡Pronto!. </b></p>'+
+            '<p><a href="img/fotografia.jpg" download>'+
+            '<img src="img/download.png" alt="download" width="32" height="32" onclick="location.reload();">'+
+            '</a><p>';
+
             console.log(validator.maskify(creditCard)); /*4137894711755904*/
 
         }
