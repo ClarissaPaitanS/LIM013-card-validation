@@ -24,10 +24,10 @@ const validator = {
     }
 
     if ((suma % 10) === 0){ 
-    /*alert("Número de tarjeta es Válido");*/
+    alert("Número de tarjeta es Válido");
     return true;
   } else {
-    /* alert("Número de tarjeta no es Válido");*/
+    alert("Número de tarjeta no es Válido");
       return false;
       }
     },
