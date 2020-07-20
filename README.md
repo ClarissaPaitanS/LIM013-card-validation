@@ -33,7 +33,7 @@ de módulo 10, es un método de suma de verificación, se utiliza para validar n
 
 ![](img/prototipo.jpg)
 
-### Prototipo con Balsamiq 🖱️
+## Prototipo con Balsamiq 🖱️
 
   ### 1. Pantalla Inicial:
 
