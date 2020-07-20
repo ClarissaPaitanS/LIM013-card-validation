@@ -25,13 +25,15 @@ de módulo 10, es un método de suma de verificación, se utiliza para validar n
 
 ## 2. Prototipo 👩🏻‍💻
 
-- La idea inicial, se centro en un formulario para Realizar la Validación:
+- 💻 La idea inicial, se centro en un formulario para Realizar la Validación:
 
 ![](img/primero.jpg)
 
-- Luego del Feedback:
+- 💡 Luego del Feedback:
 
 ![](img/prototipo.jpg)
+
+### Prototipo con Balsamiq 🖱️
 
   ### 1. Pantalla Inicial:
 
@@ -45,7 +47,7 @@ de módulo 10, es un método de suma de verificación, se utiliza para validar n
 
 ![](img/avance_uno.jpg)
 
-## 4. Feedback 😎💻
+## 4. Feedback 😎💻💡
 Al inicio mi prototipo solo constaba de un formulario para validar.
 Luego del feedback - lluvia de ideas con mi Squad: 
 - Brinde mas contexto a mi aplicación, centrarlo en un tema.
