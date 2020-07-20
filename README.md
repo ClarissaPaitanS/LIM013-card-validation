@@ -49,5 +49,5 @@ de módulo 10, es un método de suma de verificación, se utiliza para validar n
 Al inicio mi prototipo solo constaba de un formulario para validar.
 Luego del feedback - lluvia de ideas con mi Squad: 
 - Brinde mas contexto a mi aplicación, centrarlo en un tema.
-- Adicione una pantalla inicio con una presentación resumida.
-- Boton Adquirir, que llamará al formulario de pago.
+- Adicione una pantalla de inicio con una presentación resumida.
+- Botón Adquirir, que llamará al formulario de pago.
