@@ -21,7 +21,12 @@ de módulo 10, es un método de suma de verificación, se utiliza para validar n
   3. El número a verificar será válido si la suma de sus dígitos finales es un múltiplo de 10.
 
 
-## 2. Prototipo
+## 2. Prototipo 
 
-  1. Pantalla Inicial:
+  ### 1. Pantalla Inicial:
+
 ![](img/Iniciar.jpg)
+
+  ### 2. Pantalla Formulario Pago:
+
+  ![](img/Formulario_de_Pago.jpg)
