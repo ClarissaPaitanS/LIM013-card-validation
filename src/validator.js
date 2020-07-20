@@ -1,4 +1,5 @@
 const validator = {
+  
   isValid: function isValid(numero_tarjeta) {
         
     const cadena = numero_tarjeta.toString();
