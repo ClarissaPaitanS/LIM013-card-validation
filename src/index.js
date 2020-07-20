@@ -55,10 +55,7 @@ function realizarPago() {
             '<p><a href="img/fotografia.jpg" download>'+
             '<img src="img/download.png" alt="download" width="32" height="32" onclick="location.reload();">'+
             '</a><p>';
-
-            console.log(validator.maskify(creditCard)); /*4137894711755904*/
-
-        }
+            }
         
         
     }
