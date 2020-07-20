@@ -24,4 +24,4 @@ de módulo 10, es un método de suma de verificación, se utiliza para validar n
 ## 2. Prototipo
 
   1. Pantalla Inicial:
-   ! [](img/iniciar.png)
+! [](img/Iniciar.jpg)
