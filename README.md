@@ -4,6 +4,7 @@
 
 * [1. Objetivo](#1-Objetivo)
 * [2. Prototipo](#2-Prototipo)
+* [3. Avance](#2-Avance)
 
 ***
 
@@ -32,3 +33,7 @@ de módulo 10, es un método de suma de verificación, se utiliza para validar n
   ### 2. Pantalla Formulario Pago:
 
   ![](img/Formulario_de_Pago.jpg)
+
+## 3. Avance 🖱️💻
+
+![](img/avance_uno.jpg)
