@@ -23,7 +23,7 @@ const validator = {
       suma += parseInt(cadena.charAt(i));
     }
 
-    if ((suma % 10) == 0){ 
+    if ((suma % 10) === 0){ 
     /*alert("Número de tarjeta es Válido");*/
     return true;
   } else {
