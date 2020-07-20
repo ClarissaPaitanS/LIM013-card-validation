@@ -32,6 +32,7 @@ describe('validator', () => {
 
     it.skip('Debería retornar "############5616" para "4556364607935616"', () => {
       // escribe aquí tu test
+      expect(validator.isValid(4137894711755904)).toBe(true);
     });
 
     it.skip('Debería retornar "1" para "1"', () => {
