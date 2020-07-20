@@ -27,6 +27,9 @@ document.getElementById("pagar").onclick=realizarPago;
 document.getElementById("CreditCard").onclick=limpiarCampos;
 
 
+
+
+
 /* Función para Realizar Pago: */
 function realizarPago() {
     //Variables:
@@ -48,6 +51,10 @@ function realizarPago() {
     }
 
 }
+
+
+
+
 
 /* Función para Validar Campos: */
 function validarDatos() {

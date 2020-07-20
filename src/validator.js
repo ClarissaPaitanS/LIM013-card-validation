@@ -1,5 +1,5 @@
 const validator = {
-  
+
   isValid: function isValid(numero_tarjeta) {
         
     const cadena = numero_tarjeta.toString();
@@ -25,6 +25,7 @@ const validator = {
 
     if ((suma % 10) == 0){ 
     alert("Número de tarjeta es Válido");
+    console.log(validator.maskify(numero_tarjeta));
       return true;
 
   } else {
