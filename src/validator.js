@@ -24,23 +24,18 @@ const validator = {
     }
 
     if ((suma % 10) == 0){ 
-    alert("Número de tarjeta es Válido");
-    console.log(validator.maskify(numero_tarjeta));
-      return true;
-
+    /*alert("Número de tarjeta es Válido");*/
+    return true;
   } else {
-      alert("Número de tarjeta no es Válido");
+    /* alert("Número de tarjeta no es Válido");*/
       return false;
       }
-    
-
-
-  },
+    },
 
 maskify:function maskify(numero_tarjeta) {
   numero_tarjeta= numero_tarjeta.replace(/.(?=.{4})/g, "#");
   return numero_tarjeta;
-},
+}
 
 
 };
