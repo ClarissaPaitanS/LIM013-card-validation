@@ -57,8 +57,7 @@ function realizarPago() {
             '</a><p>';
             }
 
-            
-console.log(validator.maskify(creditCard)); /*4137894711755904*/
+        console.log(validator.maskify(creditCard)); /*4137894711755904*/
         
         
     }
