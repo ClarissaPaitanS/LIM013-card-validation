@@ -44,7 +44,7 @@ de módulo 10, es un método de suma de verificación, se utiliza para validar n
   ![](img/Formulario_de_Pago.jpg)
 
 ## 3. Avance 🖱️💻
-- Probando Estilos
+- Probando Estilos:
 
 ![](img/avance_uno.jpg)
 
@@ -54,4 +54,4 @@ Luego del feedback - lluvia de ideas con mi Squad:
 - Brinde mas contexto a mi aplicación, centrarlo en un tema.
 - Adicione una pantalla de inicio con una presentación.
 - Botón Adquirir, que llamará al formulario de pago.
-- Mostrar un mensaje
+- Mostrar un mensaje de confirmación para la validación.
