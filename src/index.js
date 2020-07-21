@@ -37,10 +37,11 @@ function realizarPago() {
         const nameClient=document.getElementById("NameClient").value;
         const descargar = document.getElementById("detalle");
 
-    if (validarDatos()!==false) {
+if (validarDatos()!==false) {
 
         if ( validator.isValid(creditCard)!==false) {
-            
+            alert("Número de tarjeta es Válido");
+        
             modalPago.style.display="none";
             modalDetalle.style.display="block";
 
@@ -56,11 +57,14 @@ function realizarPago() {
             '<img src="img/download.png" alt="download" width="32" height="32" onclick="location.reload();">'+
             '</a><p>';
             }
+            else{
+                alert("Número de tarjeta no es Válido");
+            }
 
-        console.log(validator.maskify(creditCard)); /*4137894711755904*/
+       // console.log(validator.maskify(creditCard)); /*4137894711755904*/
         
         
-    }
+}
 
 }
 

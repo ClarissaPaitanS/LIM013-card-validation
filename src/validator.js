@@ -1,6 +1,6 @@
 const validator = {
 
-  isValid: function (numero_tarjeta) {
+  isValid: function isValid(numero_tarjeta) {
         
     const cadena = numero_tarjeta.toString();
     const longitud = cadena.length;
@@ -24,15 +24,13 @@ const validator = {
     }
 
     if ((suma % 10) === 0){ 
-    alert("Número de tarjeta es Válido");
     return true;
   } else {
-    alert("Número de tarjeta no es Válido");
       return false;
       }
     },
 
-maskify: function (numero_tarjeta) {
+maskify: function maskify (numero_tarjeta) {
   numero_tarjeta= numero_tarjeta.replace(/.(?=.{4})/g, "#");
   return numero_tarjeta;
 }
