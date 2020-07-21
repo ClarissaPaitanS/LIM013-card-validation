@@ -62,8 +62,8 @@ if (validarDatos()!==false) {
             }
 
        // console.log(validator.maskify(creditCard)); /*4137894711755904*/
-        
-        
+       // eslint-disable-next-line no-console
+        console.log(validator.maskify(creditCard));
 }
 
 }
