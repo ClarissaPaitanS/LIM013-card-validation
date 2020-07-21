@@ -44,7 +44,7 @@ de módulo 10, es un método de suma de verificación, se utiliza para validar n
   ![](img/Formulario_de_Pago.jpg)
 
 ## 3. Avance 🖱️💻
-- Probando Estilos:
+- Agregando Estilos:
 
 ![](img/avance_uno.jpg)
 
