@@ -1,5 +1,4 @@
 import validator from './validator.js';
-
 const modalDetalle = document.getElementById("modalDetalle");
 const modalPago = document.getElementById("modalPago");
 const btnAdquirir = document.getElementById("btnAdquirir");
@@ -21,13 +20,10 @@ const span = document.getElementsByClassName("close")[0];
         }
     }
 
-
-
-document.getElementById("pagar").onclick=realizarPago;
+//Pagar.onclick llamará función realizarPago.
+const pagar=document.getElementById("pagar");
+pagar.onclick=realizarPago;
 document.getElementById("CreditCard").onclick=limpiarCampos;
-
-
-
 
 
 /* Función para Realizar Pago: */
@@ -36,7 +32,7 @@ function realizarPago() {
         const creditCard = document.getElementById("CreditCard").value;
         const nameClient=document.getElementById("NameClient").value;
         const descargar = document.getElementById("detalle");
-
+    
 if (validarDatos()!==false) {
 
         if ( validator.isValid(creditCard)!==false) {
