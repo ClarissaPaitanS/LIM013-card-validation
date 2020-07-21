@@ -40,12 +40,6 @@ const validator = {
       }
     }
 
-
-
-
-
-
-
     if ((suma % 10) === 0){ 
     return true;
   } else {
