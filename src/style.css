@@ -26,6 +26,7 @@
     box-sizing: content-box;
 
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 50px;
 }
 
   /* The Close Button */
@@ -79,7 +80,7 @@ img{
 
     margin-bottom: 15px;
     padding: 5px;
-    background-color: darkseagreen;
+    background-color: rgb(250, 253, 250);
 
     }
 
@@ -120,12 +121,13 @@ button{
 #main-header{
     text-align: center;
     padding: 25px 5px;
-    background-color: darkgray;
+    background-color: #f1f1f1;;
     }
 
 #main-principal{
     padding-top: 25px;
     }
+
 
 label{
     font-weight: 900; 

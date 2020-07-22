@@ -28,17 +28,18 @@ pagar.onclick=realizarPago;
 document.getElementById("CreditCard").onclick=limpiarCampos;
 
 
+
 /* Función para Realizar Pago: */
 function realizarPago() {
     //Variables:
         const creditCard = document.getElementById("CreditCard").value;
         const nameClient=document.getElementById("NameClient").value;
         const descargar = document.getElementById("detalle");
-    
 if (validarDatos()!==false) {
 
         if ( validator.isValid(creditCard)!==false) {
             alert("Número de tarjeta es Válido");
+            
         
             modalPago.style.display="none";
             modalDetalle.style.display="block";
