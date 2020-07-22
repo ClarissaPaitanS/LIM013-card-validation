@@ -35,14 +35,23 @@ function realizarPago() {
         const creditCard = document.getElementById("CreditCard").value;
         const nameClient=document.getElementById("NameClient").value;
         const descargar = document.getElementById("detalle");
+
+        const mensajeA= document.getElementById("mensajeA");
+        const mensajeC= document.getElementById("mensajeC");
+
+
 if (validarDatos()!==false) {
 
         if ( validator.isValid(creditCard)!==false) {
+            mensajeA.style.display="none";
+            mensajeC.style.display="inline";
             alert("Número de tarjeta es Válido");
             
+            setTimeout(() => {
+                modalPago.style.display="none";
+                modalDetalle.style.display="block"
+            }, 2000);
         
-            modalPago.style.display="none";
-            modalDetalle.style.display="block";
 
 
             descargar.innerHTML=
@@ -51,12 +60,13 @@ if (validarDatos()!==false) {
             '<p>Gracias <b>'+ nameClient +', </b> por tu compra.</p>'+ 
             '<p><b> Nro. Tarjeta: </b>'+ validator.maskify(creditCard) +'</p>'+
             '<p><b> Puedes Iniciar la Descarga de la Imagen en Alta Calidad.</b></p>'+
-            '<p> Esperamos volver a verte <b>¡Pronto!. </b></p>'+
+            '<p> Esperamos volver a verte <b>¡Pronto! </b></p>'+
             '<p><a href="img/fotografia.jpg" download>'+
             '<img src="img/download.png" alt="download" width="32" height="32" onclick="location.reload();">'+
-            '</a><p>';
+            '</a></p>';
             }
             else{
+                mensajeA.style.display="inline";
                 alert("Número de tarjeta no es Válido");
             }
 

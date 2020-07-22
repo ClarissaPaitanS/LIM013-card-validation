@@ -73,15 +73,28 @@ h1{
     font-size: 20px;
     }
 
-img{
-    display: block; /*en el caso de las imagenes de los objetos img, elimina el espacio inferior*/
+
+/*img{
+    display: block; /en el caso de las imagenes de los objetos img, elimina el espacio inferior*
     margin: auto;
     border-style: double;
 
     margin-bottom: 15px;
     padding: 5px;
     background-color: rgb(250, 253, 250);
+    }
+*/
 
+
+    .imagen img{
+        display: block; 
+        margin: auto;
+        border-style: double;
+    
+        margin-bottom: 15px;
+        padding: 5px;
+        background-color: darkseagreen;
+    
     }
 
 .container{
@@ -171,4 +184,12 @@ label{
     margin: 16px;
     padding: 10px 20px;
     font-size: 15px;
+    }
+
+    #mensajeA{
+        display: none;
+    }
+
+    #mensajeC{
+        display: none;
     }
