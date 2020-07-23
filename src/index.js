@@ -21,10 +21,7 @@ const span = document.getElementsByClassName("close")[0];
     }
 
 //Pagar.onclick llamará función realizarPago.
-const pagar=document.getElementById("pagar");
-pagar.onclick=realizarPago;
-
-
+document.getElementById("pagar").onclick=realizarPago;
 document.getElementById("CreditCard").onclick=limpiarCampos;
 
 
