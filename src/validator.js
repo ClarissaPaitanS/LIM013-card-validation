@@ -8,6 +8,8 @@ const validator = {
     let suma=0;
     
     if ((longitud%2)===0) {
+
+      
       for (let i=0; i < longitud; i+=2){
         cifra = parseInt(cadena.charAt(i))*2;
   

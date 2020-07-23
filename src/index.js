@@ -25,24 +25,22 @@ document.getElementById("pagar").onclick=realizarPago;
 document.getElementById("CreditCard").onclick=limpiarCampos;
 
 
-
 /* Función para Realizar Pago: */
 function realizarPago() {
     //Variables:
-        const creditCard = document.getElementById("CreditCard").value;
-        const nameClient=document.getElementById("NameClient").value;
-        const descargar = document.getElementById("detalle");
-
-        const mensajeA= document.getElementById("mensajeA");
-        const mensajeC= document.getElementById("mensajeC");
+    const creditCard = document.getElementById("CreditCard").value;
+    const nameClient=document.getElementById("NameClient").value;
+    const descargar = document.getElementById("detalle");
+    const mensajeA= document.getElementById("mensajeA");
+    const mensajeC= document.getElementById("mensajeC");
 
 
 if (validarDatos()!==false) {
 
-        if ( validator.isValid(creditCard)!==false) {
-            mensajeA.style.display="none";
-            mensajeC.style.display="inline";
-            alert("Número de tarjeta es Válido");
+  if ( validator.isValid(creditCard)!==false) {
+    mensajeA.style.display="none";
+    mensajeC.style.display="inline";
+    alert("Número de tarjeta es Válido");
             
             setTimeout(() => {
                 modalPago.style.display="none";
