@@ -190,6 +190,21 @@ label{
         display: none;
     }
 
+    #mensajeA.visible{
+        display: inline;
+    }
+
     #mensajeC{
         display: none;
+    }
+
+    #mensajeC.visible{
+        display: inline;
+    }
+
+    .ocultar{
+        display: none;
+    }
+    .mostrar{
+        display: block;
     }
