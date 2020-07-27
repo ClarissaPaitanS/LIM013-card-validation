@@ -35,11 +35,11 @@ de módulo 10, es un método de suma de verificación, se utiliza para validar n
 
 ## Prototipo con Balsamiq 🖱️
 
-  ### 1. Pantalla Inicial:
+  ### 2.1. Pantalla Inicial:
 
   ![](img/Iniciar.jpg)
 
-  ### 2. Pantalla Formulario Pago:
+  ### 2.2. Pantalla Formulario Pago:
 
   ![](img/Formulario_de_Pago.jpg)
 
@@ -55,3 +55,12 @@ Luego del feedback - lluvia de ideas con mi Squad:
 - Adicione una pantalla de inicio con una presentación.
 - Botón Adquirir, que llamará al formulario de pago.
 - Mostrar un mensaje de confirmación para la validación.
+
+## 5. Prototipo 💻
+- Inicio:
+
+![](img/prototipo_uno.jpg)
+
+- Formulario de Pago:
+
+![](img/prototipo_dos.jpg)
