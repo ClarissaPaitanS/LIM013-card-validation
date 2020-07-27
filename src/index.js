@@ -69,7 +69,6 @@ if (validarDatos()!==false) {
     }, 2000);
   
     descargar.innerHTML=
-    '<h1>¡Tu Pago se Realizo con Éxito!</h1>'+
     '<br/><img src="img/gracias.gif" alt="gracias">'+
     '<p>Gracias <b>'+ nameClient +', </b> por tu compra.</p>'+ 
     '<p><b> Nro. Tarjeta: </b>'+ validator.maskify(creditCard) +'</p>'+
