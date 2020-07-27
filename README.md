@@ -65,3 +65,7 @@ Luego del feedback - lluvia de ideas con mi Squad:
 - Formulario de Pago:
 
 ![](img/prototipo_dos.jpg)
+
+- Validación Correcta:
+
+![](img/prototipo_tres.jpg)
