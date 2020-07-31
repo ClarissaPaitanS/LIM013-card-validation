@@ -1,73 +1,69 @@
 /* Modal */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
   /* Modal Content */
 .modal-content {
-    background-color: #ffffff;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid rgb(136, 136, 136);
-    width: 50%;
-
-    text-align: center;
-    color: #000;
-    box-sizing: content-box;
-
-    font-family: 'Lobster', cursive;
-    border-radius: 50px;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid rgb(136, 136, 136);
+  width: 50%;
+  text-align: center;
+  color: #000;
+  box-sizing: content-box;
+  font-family: 'Lobster', cursive;
+  border-radius: 50px;
 }
 
   /* The Close Button */
 .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .modal-header {
-    padding: 15px;
-    border-bottom: 1px solid #e5e5e5;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .modal-footer {
-    padding: 15px;
-    text-align: right;
-    border-top: 1px solid #e5e5e5;
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
 }
 
 .modal-content-detalle {
-    background-color: #ffffff;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid rgb(136, 136, 136);
-    width: 50%;
-
-    text-align: center;
-    color: #000;
-    box-sizing: content-box;
-
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-radius: 50px;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid rgb(136, 136, 136);
+  width: 50%;
+  text-align: center;
+  color: #000;
+  box-sizing: content-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 50px;
 }
 
 .modal-header-detalle {
@@ -76,193 +72,182 @@
 }
 
 body{
-    margin: 0; /*Se elimina el margen por defecto que tiene el objeto body*/
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px; /*Tamaño del texto*/
-
-    background-color: rgba(205, 230, 241, 0.692);
+  margin: 0; /*Se elimina el margen por defecto que tiene el objeto body*/
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px; /*Tamaño del texto*/
+  background-color: rgba(205, 230, 241, 0.692);
 }
 
 h1,h2,h3,h4,h5,h6{
-    margin: 0;
+  margin: 0;
 }
 
 h1{ 
 /*Se indica el estilo de la fuente a usar*/
-    font-weight: 250;
-    font-size: 48px;
-    /*Espacio entre letra y letra*/
-    /*letter-spacing: -3px; */
-    }
+  font-weight: 250;
+  font-size: 48px;
+  /*Espacio entre letra y letra*/
+  /*letter-spacing: -3px; */
+  }
 
-    p{
-    margin-top: 0; /*Se eliminó el margen superior por defecto del párrafo*/
-    margin-bottom: 24px;
-    line-height: 35px; /*Alto de línea o interlineado*/
-
-    font-weight: 300;
-    font-size: 20px;
-    }
+p{
+  margin-top: 0; /*Se eliminó el margen superior por defecto del párrafo*/
+  margin-bottom: 24px;
+  line-height: 35px; /*Alto de línea o interlineado*/
+  font-weight: 300;
+  font-size: 20px;
+  }
 
 
 /*img{
-    display: block; /en el caso de las imagenes de los objetos img, elimina el espacio inferior*
-    margin: auto;
-    border-style: double;
-
-    margin-bottom: 15px;
-    padding: 5px;
-    background-color: rgb(250, 253, 250);
+  display: block; /en el caso de las imagenes de los objetos img, elimina el espacio inferior*
+  margin: auto;
+  border-style: double;
+  margin-bottom: 15px;
+  padding: 5px;
+  background-color: rgb(250, 253, 250);
     }
 */
 
 
-    .imagen img{
-        display: block; 
-        margin: auto;
-        border-style: double;
-    
-        margin-bottom: 15px;
-        padding: 5px;
-        background-color: darkseagreen;
-    
-    }
+.imagen img{
+  display: block; 
+  margin: auto;
+  border-style: double;
+  margin-bottom: 15px;
+  padding: 5px;
+  background-color: darkseagreen;
+  }
 
 .container{
 /*Asi se define una regla para un objeto o varios por su clase (inicia con.) */
-    max-width: 1200px;
-    /*ancho Máximo*/
+  max-width: 1200px;
+  /*ancho Máximo*/
 
     /*Esto es para q ambos margenes sean automaticos e iguales por tanto el contenido se verá centrado*/
-    margin-left: auto;
-    margin-right: auto;
-
-    padding-left: 100px;
-    padding-right: 100px;
-    }
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  }
 
 .texto{
-    text-align: justify;
-    padding: 20px 50px 20px 50px;
-    background-color: #ffff;
-    border-radius: 10%;
-    }
+  text-align: justify;
+  padding: 20px 50px 20px 50px;
+  background-color: #ffff;
+  border-radius: 10%;
+}
 
 .boton{
-    text-align: right;
-    /*border:1px solid  #be1d1d;*/
-    margin-right: 5%;
-    }
+  text-align: right;
+  /*border:1px solid  #be1d1d;*/
+  margin-right: 5%;
+}
 
 button{
-    color: #ffffff;
-    border-radius: 10px;
-    font-weight: 900;
-    padding: 15px 20px 15px 20px;
-    background-color: #337ab7;;
-    font-size: 15px;
-    }
+  color: #ffffff;
+  border-radius: 10px;
+  font-weight: 900;
+  padding: 15px 20px 15px 20px;
+  background-color: #337ab7;;
+  font-size: 15px;
+}
 
 button:hover{
-    color: #fff;
-    background-color: #286090;
-    border-color: #204d74; 
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74; 
 }
 
 #main-header{
-    text-align: center;
-    padding: 25px 5px;
-    background-color: #f1f1f1;
-
-    font-family: fantasy;
-    }
+  text-align: center;
+  padding: 25px 5px;
+  background-color: #f1f1f1;
+  font-family: fantasy;
+}
 
 #main-principal{
-    padding-top: 25px;
-    }
+  padding-top: 25px;
+}
 
 
 label{
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .formulario{
-    text-align: center;
-    border:1px solid #fbfbfb;
-    border-radius: 20px;
-    padding: 5px;
-    width: 100%;
-    margin-top: 20px;
+  text-align: center;
+  border:1px solid #fbfbfb;
+  border-radius: 20px;
+  padding: 5px;
+  width: 100%;
+  margin-top: 20px;
 
-    background-image: url("img/credit_card_image.png");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
-    background-position-x: 65%;
+  background-image: url("img/credit_card_image.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  background-position-x: 65%;
 
-    margin-bottom: 15px;
-        }
+  margin-bottom: 15px;
+}
 
 .campo{
-    text-align: center;
-    border:1px solid  #ffffff38;
-    border-radius: 5px;
-    width: 100%;
-    
-    }
+  text-align: center;
+  border:1px solid  #ffffff38;
+  border-radius: 5px;
+  width: 100%;
+}
 
 .campo input{
-    margin: 16px;
-    padding: 10px 100px;
-    font-size: 15px;
+  margin: 16px;
+  padding: 10px 100px;
+  font-size: 15px;
 
-    border-radius: 4px;
-    border: 1px solid #ccc;
-
-    }
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
 
 .campoDatos{
-    border:1px solid #ffffff38;
-    border-radius: 5px;
-    }
+  border:1px solid #ffffff38;
+  border-radius: 5px;
+}
 
 .campoDatos input{
-    margin: 16px;
-    padding: 10px 20px;
-    font-size: 15px;
+  margin: 16px;
+  padding: 10px 20px;
+  font-size: 15px;
 
-    border-radius: 4px;
-    border: 1px solid #ccc;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
 
-    }
+#mensajeA{
+  display: none;
+}
 
-    #mensajeA{
-        display: none;
-    }
+#mensajeA.visible{
+  display: inline;
+}
 
-    #mensajeA.visible{
-        display: inline;
-    }
+#mensajeC{
+  display: none;
+}
 
-    #mensajeC{
-        display: none;
-    }
+#mensajeC.visible{
+  display: inline;
+}
 
-    #mensajeC.visible{
-        display: inline;
-    }
-
-    .ocultar{
-        display: none;
-    }
-    .mostrar{
-        display: block;
-    }
+.ocultar{
+  display: none;
+}
+.mostrar{
+  display: block;
+}
 
 #detalle{
 /*background-color: beige;
 border-radius: 0% 0% 10% 10%;*/
-
   padding: 5px;
   background-color: beige;
   border-radius: 0% 0% 5% 5%;
