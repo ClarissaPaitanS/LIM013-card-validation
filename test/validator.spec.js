@@ -23,7 +23,7 @@ describe('validator', () => {
 
     it('debería retornar false para "1234567890"', () => {
       // escribe aquí tu test
-      expect(validator.isValid(1234567890)).toBeFalsy;
+      expect(validator.isValid(1234567890)).toBeFalsy();
     });
   });
 
